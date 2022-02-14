@@ -94,3 +94,54 @@ ul {
 li {
   padding-left: 5px;
 }
+.image-gods {
+  width:200px;
+  height:250px;
+}
+.card {
+  display: inline-block; 
+  padding: 20px;
+  margin: 0 auto;
+  background-color: transparent;
+  width: 200px;
+  height: 250px;
+  perspective:1000px;
+
+}
+
+.card-inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .card-inside {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: white;
+  color: black;
+  box-shadow: 0 10px 30px white,0 -10px 20px gray,0 10px 20px black,0 -10px 30px #996515;
+  
+}
+
+.card-back {
+  background-image: linear-gradient(to bottom right, black 23%, grey);
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 14px;
+  overflow: auto;
+}
