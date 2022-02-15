@@ -159,3 +159,6 @@ li {
   font-size: 14px;
   overflow: auto;
 }
+#quote {
+  font-style: italic;
+}
