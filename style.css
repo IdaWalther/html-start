@@ -45,12 +45,13 @@ header {
 aside {
   padding: 10px;
   margin-right: 1em;
+  width:20%;
 }
 
 .main-nav__link {
   display: block;
   margin: auto;
-  width: 90%;
+  width: 80%;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
   border: ridge 1px black;
@@ -76,7 +77,9 @@ main {
   text-align: justify;
   height: 100vh;
 }
-
+.section-gods {
+  width:80%;
+}
 footer {
   position: fixed;
   font-size: 0.8rem;
