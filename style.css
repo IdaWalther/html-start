@@ -4,6 +4,10 @@ body {
   background-color: rgb(211, 205, 205);
   margin: 0;
 }
+*:focus-visible {
+outline: 2px dotted black;
+}
+
 .heading-font {
   font-family: "Caesar Dressing", cursive;
 }
@@ -46,6 +50,7 @@ aside {
   padding: 10px;
   margin-right: 1em;
   width:20%;
+  min-width:160px;
 }
 
 .main-nav__link {
@@ -75,10 +80,17 @@ main {
   display: flex;
   flex-direction: row;
   text-align: justify;
-  height: 100vh;
+  min-height: 100vh;
 }
 .section-gods {
-  width:80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*justify-items: center;*/
+}
+.section-gods__heading {
+  width:100%;
 }
 footer {
   position: fixed;
@@ -109,7 +121,6 @@ li {
   width: 200px;
   height: 250px;
   perspective:1000px;
-
 }
 
 .card-inside {
