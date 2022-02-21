@@ -26,16 +26,17 @@
       <section class="section-serie">
         <h2>The Serie Vikings</h2>
        <img class="image__50" src="/bilder/vikings.jpg" alt="Vikings">
-        <p id="quote"></p>
+       <div><button id="btn-quote">Get quote</button> </div>
+       <p id="quote"></p>
         <hr>
         <h3>Do you love the serie Vikings as much as we do? </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ut magnam sequi nemo molestiae nam voluptates! Tempora vitae libero asperiores, inventore, quia alias unde nihil ullam deserunt obcaecati ipsum mollitia?</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ut magnam sequi nemo molestiae nam voluptates! Tempora vitae libero asperiores, inventore, quia alias unde nihil ullam deserunt obcaecati ipsum mollitia?</p>
 
        <!--Make a modal button for one character -->
-        <button id="modal-btn">Ragnar</button> 
+        <button class="modal-btn" data-modal-btn="ragnar">Ragnar</button> 
          <!--Make the parent container of the modal-->
-        <div class="modal">
+        <div class="modal" id="ragnar">
           <header class="modal-header theme-gradient">
             <h2>Ragnar</h2>
           </header><!--Close the modal-header-->
@@ -43,9 +44,26 @@
         <div class="modal-content">
          <!-- -->  
          <!--The button that closes the modal-->
-          <span class="close-btn">&times;</span>
+          <button class="close-btn">&times;</button>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ut magnam sequi nemo molestiae nam voluptates! Tempora vitae libero asperiores, inventore, quia alias unde nihil ullam deserunt obcaecati ipsum mollitia?</p>
           <img src="/bilder/ragnar.jpg" class="image__50" alt="Ragnar">
+        </div><!--Close the modal-content-->
+        </div><!--Close the modal-->
+
+         <!--Make a modal button for one character -->
+         <button class="modal-btn" data-modal-btn="floki">Floki</button> 
+         <!--Make the parent container of the modal-->
+        <div class="modal" id="floki">
+          <header class="modal-header theme-gradient">
+            <h2>Floki</h2>
+          </header><!--Close the modal-header-->
+         <!--Make the content of the modal-->
+        <div class="modal-content">
+         <!-- -->  
+         <!--The button that closes the modal-->
+          <button class="close-btn">&times;</button>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ut magnam sequi nemo molestiae nam voluptates! Tempora vitae libero asperiores, inventore, quia alias unde nihil ullam deserunt obcaecati ipsum mollitia?</p>
+          <img src="/bilder/.jpg" class="image__50" alt="Floki">
         </div><!--Close the modal-content-->
         </div><!--Close the modal-->
         </section>
