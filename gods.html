@@ -1,212 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vikings</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header theme-gradient">
-      <h1 class="header__heading header__heading--large heading-font">
-        Vikings
-      </h1>
-    </header>
-    <main>
-      <aside class="theme-gradient--bottom">
-        <nav class="main-nav">
-          <a
-            class="main-nav__link"
-            href="/index.html">Start Page</a>
-          <a class="main-nav__link" href="/realViking.html">Real Vikings</a>
-          <a class="main-nav__link main-nav__link--active" href="/gods.html">Norse Gods</a>
-          <a class="main-nav__link" href="/serie.html">The Serie Vikings</a>
-        </nav>
-      </aside>
-      <section class="section-gods">
-        <h2 class="section-gods__heading">Norse Gods</h2>
-        <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                  <img class="image-gods" src="bilder/odin.jpg" alt="odin">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Odin</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
-          </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/thor.jpg" alt="thor">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Thor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/freyja.jpg" alt="freyja">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Freyja</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+<body>
+  <header class="header theme-gradient">
+    <h1 class="header__heading header__heading--large heading-font">
+      Vikings
+    </h1>
+  </header>
+  <button class="navigation-trigger" data-trigger>
+    <span class="navigation-trigger--open">
+     <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="30px"
+        height="30px"
+        viewBox="0 0 100 100"
+      >
+        <path
+          stroke-width="24"
+          stroke-linecap="round"
+          stroke="#fff"
+          d="M15 20L85 20M15 50L85 50M15 80L85 80"
+        />
+      </svg>
+    </span>
+  <span class="navigation-trigger--close"
+      >
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" version="1.0"  width="30px"
+height="30px"><path style="stroke-linejoin:round;fill-rule:evenodd;stroke:#333;stroke-linecap:round;stroke-width:3.125;fill:#b3b3b3" d="M52.25 5.42C49 5.8 41.18 11.32 30.09 21.7 2.62-2.98-3.88 3.7 21.5 30.24c-24.67 28.1-17.82 34.56 8.73 8.4 27.6 24.94 33.12 18.78 8-8.56C52.44 13.92 56.78 4.9 52.25 5.42z"/></svg>
+    </span>
+  </button>
+  <main>
+  <nav class="navigation">
+    <button class="navigation-close js-navigation-close">Close menu</button>
+  <aside>
+      <ul class="navigation__list">
+      <li class="navigation__list-item"><a
+        class="navigation__link"
+        href="/index.html">Start Page</a></li>
+        <li class="navigation__list-item"><a class="navigation__link" href="/realViking.html">Real Vikings</a></li>
+        <li class="navigation__list-item"><a class="navigation__link navigation__link--active" href="/gods.html">Norse Gods</a></li>
+        <li class="navigation__list-item"><a class="navigation__link" href="/serie.html">The Serie Vikings</a></li>
+      </ul>
+    </nav>
+    </aside>
+    <section class="section-gods">
+      <h2 class="section-gods__heading">Norse Gods</h2>
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/odin.jpg" alt="odin">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Odin</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/frigg.jpg" alt="frigg">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Frigg</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/thor.jpg" alt="thor">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Thor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/idun.png" alt="idun">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Idunn</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/freyja.jpg" alt="freyja">
           </div>
-          
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/loki.png" alt="loki">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Loki</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Freyja</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
           </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/tyr.jpg" alt="tyr">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Tyr</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/frigg.jpg" alt="frigg">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Frigg</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/mimir.jpg" alt="mimir">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Mimir</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/idun.png" alt="idun">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Idunn</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/hel.jpeg" alt="hel">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Hel</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/loki.png" alt="loki">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Loki</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/balder.png" alt="Balder">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Balder</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/tyr.jpg" alt="tyr">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Tyr</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/frej.png" alt="Frej">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Frej</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/mimir.jpg" alt="mimir">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Mimir</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/Njord.jpeg" alt="Njord">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Njord</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/hel.jpeg" alt="hel">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Hel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/utgårda-loke.jpg" alt="Utgårda-Loke">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>Utgårda Loke</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/balder.png" alt="Balder">
           </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Balder</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
 
-          <div class="card">
-            <div class="card-inside">
-              <div class="card-front">
-                <img class="image-gods" src="bilder/theNorns.png" alt="The Norns">
-              </div><!--Closing card-front-->
-               <div class="card-back">
-               <h3>The Norns</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi, voluptate laboriosam!</p>
-                </div> <!--Closing back div-->
-              </div><!--Closing card-inside-->
-          <!--Closing card div-->
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/frej.png" alt="Frej">
           </div>
-        </section>
-        </main>
-        </body>
-        </html>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Frej</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
+
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/Njord.jpeg" alt="Njord">
+          </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Njord</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
+
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/utgårda-loke.jpg" alt="Utgårda-Loke">
+          </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>Utgårda Loke</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
+
+      <div class="card">
+        <div class="card-inside">
+          <div class="card-front">
+            <img class="image-gods" src="bilder/theNorns.png" alt="The Norns">
+          </div>
+          <!--Closing card-front-->
+          <div class="card-back">
+            <h3>The Norns</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus eius aperiam eaque dolores, aliquid
+              reprehenderit soluta ipsam vel vero. Itaque laudantium ut voluptas voluptatibus facilis veniam. Eligendi,
+              voluptate laboriosam!</p>
+          </div>
+          <!--Closing back div-->
+        </div>
+        <!--Closing card-inside-->
+        <!--Closing card div-->
+      </div>
+    </section>
+  </main>
+  <script src="menu.js"></script>
+</body>
+
+</html>
