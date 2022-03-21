@@ -65,6 +65,9 @@ header {
   color: white;
   padding: 5px;
   margin-bottom: 20px;
+  position: absolute;
+  top: 0;
+  right: -44px;
 }
 
 .navigation--open .navigation-trigger--open {
@@ -241,7 +244,30 @@ li {
 .close-btn:focus {
   cursor: pointer;
 }
+#div-form {
+width: 70%;
+}
+.form-contact fieldset div{
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+  color: #000000;
+  background-color: #c48e44; 
+}
+label {
+  padding-bottom: 10px;
+}
 
+.form-contact legend {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+.send {
+  text-align: right;
+}
 /*Desktop style*/
 @media screen and (min-width: 769px) {
   /*Gömma menyknappen
